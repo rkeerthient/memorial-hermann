@@ -40,7 +40,7 @@ export const renderProductPreview = (
     <div className="flex flex-col items-center cursor-pointer hover:bg-gray-100">
       {productThumbnail && (
         <img
-          className="w-32"
+          className="w-56"
           src={productThumbnail.url}
           alt={`${result.name} thumbnail`}
         />

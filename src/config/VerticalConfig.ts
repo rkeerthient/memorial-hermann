@@ -92,8 +92,9 @@ export const VerticalConfig: VerticalProps[] = [
     verticalKey: "providers",
     pageType: "grid-cols-3",
     cardType: ProfessionalLocationAndGrid,
-    universalLimit: 10,
-    verticalLimit: 6,
+    universalLimit: 4,
+    verticalLimit: 10,
+    visualTypeHead: true,
   },
   {
     label: "Locations",
