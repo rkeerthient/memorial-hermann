@@ -32,7 +32,7 @@ export const GlobalConfig: GlobalConfigProps = {
   chatExperienceVersion: "Production", // Production or Staging
   isChatEnabled: false, //true or false, also fill YEXT_PUBLIC_CHAT_APIKEY and YEXT_PUBLIC_CHAT_BOTID to work
   locale: "en", // your locale eg: en_GB
-  isGenerativeDirectAnswerEnabled: false, //true or false
+  isGenerativeDirectAnswerEnabled: true, //true or false
   region: "US", //US or EU
 };
 /**
