@@ -38,7 +38,7 @@ const SearchNav = () => {
     setQueryParams(query || queryString, item.verticalKey);
     SearchUtils({
       vertical: item.verticalKey,
-      query: query || "",
+      query: query || " ",
       searchActions,
       context: context || "",
     });

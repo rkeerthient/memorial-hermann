@@ -252,10 +252,12 @@ const SearchResults = () => {
                               titleLabel: "text-lg",
                             }}
                           >
-                            {/* <StandardFacet
-                              fieldId={"builtin.entityType"}
-                              label="Type"
-                            /> */}
+                            {currLabel === "Services" && (
+                              <StandardFacet
+                                fieldId={"builtin.entityType"}
+                                label="Type"
+                              />
+                            )}
                           </Facets>
                         )}
                       </aside>
