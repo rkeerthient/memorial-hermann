@@ -252,10 +252,10 @@ const SearchResults = () => {
                               titleLabel: "text-lg",
                             }}
                           >
-                            <StandardFacet
+                            {/* <StandardFacet
                               fieldId={"builtin.entityType"}
                               label="Type"
-                            />
+                            /> */}
                           </Facets>
                         )}
                       </aside>
